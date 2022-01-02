@@ -1,2 +1,2 @@
 # StaticVsNonStatic
-static vs non-static demonstration
+Here I demonstrate the difference between a static and a non-static method
