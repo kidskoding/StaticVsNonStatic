@@ -6,10 +6,10 @@ public class StaticVsNonStatic {
         System.out.println(s.quotientV2(5, 2)); //call to non-static method
     }
     static int quotient(int a, int b) {
-        return a / b; //static method
+        return a / b; //static method. Prints 2 cause of integer division. The .5 gets cut off since its an int divided by an int
     }
     int quotientV2(int a, int b) {
-        return a / b; //non-static method
+        return a / b; //non-static method. Prints 2 cause of integer division. The .5 gets cut off since its an int divided by an int
     }
 }
 
